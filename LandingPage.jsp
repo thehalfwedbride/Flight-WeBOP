@@ -50,6 +50,7 @@ body {
 	position: fixed;
 	top: 0;
 	width: 100%;
+	z-index: 10;
 }
 
 .sticky+.content {
@@ -72,8 +73,8 @@ body {
 .nav-tabs {
 	margin-bottom: 0;
 	background-color:#6b1c99;
-	 border-top-left-radius:15px;
-	 border-top-right-radius:15px;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
 }
 
 /* For sidenav */
@@ -81,7 +82,7 @@ body {
 	height: 100%;
 	width: 0;
 	position: fixed;
-	z-index: 1;
+	z-index: 10;
 	top: 0;
 	left: 0;
 	background-color: #6b1c99;
@@ -119,7 +120,7 @@ body {
 	margin-bottom: 0px;
 }
 .space{
-height:10px;
+	height:10px;
 }
 
 .nav-link{
@@ -136,7 +137,7 @@ height:10px;
 
 .pos{
   display: flex;
-  position: fixed;
+  position: absolute;
   margin-top: 10%;
   margin-left: auto;
   width: 100%;
@@ -196,6 +197,7 @@ height:10px;
       <img src="https://github.com/thehalfwedbride/Flight-WeBOP/blob/master/d.jpg?raw=true" class="d-block w-100" alt="...">
     </div>
   </div>
+  <!--
   <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
@@ -204,6 +206,7 @@ height:10px;
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
+   -->
 </div>
 	
 <div class="pos">
@@ -372,5 +375,60 @@ height:10px;
     </div>
   </div>
 </div>
+
+<div class="advt" style="text-align: center;">
+<br><br>
+<img src="https://raw.githubusercontent.com/thehalfwedbride/Flight-WeBOP/master/icons/icon1.png" style="height:40px; width:40px;">
+<img src="https://raw.githubusercontent.com/thehalfwedbride/Flight-WeBOP/master/icons/icon2.png" style="height:40px; width:40px; margin-left:200px;">
+<img src="https://raw.githubusercontent.com/thehalfwedbride/Flight-WeBOP/master/icons/icon3.png" style="height:40px; width:40px; margin-left:200px;">
+<img src="https://raw.githubusercontent.com/thehalfwedbride/Flight-WeBOP/master/icons/icon4.png" style="height:40px; width:40px; margin-left:200px;">
+<img src="https://raw.githubusercontent.com/thehalfwedbride/Flight-WeBOP/master/icons/icon5.png" style="height:80px; width:80px; margin-left:160px;">
+</div>
+<label style="font-size:16px; margin-left: 100px">1000+ daily</label>
+<label style="font-size:16px; margin-left: 150px">50+ domestic</label>
+<label style="font-size:16px; margin-left: 135px">25 International</label>
+<label style="font-size:16px; margin-left: 145px">300+ million</label>
+<label style="font-size:16px; margin-left: 140px">250 fleet</label>
+<br>
+<label style="font-size:16px; margin-left: 122px">flights</label>
+<label style="font-size:16px; margin-left: 172px">destinations</label>
+<label style="font-size:16px; margin-left: 152px">destinations</label>
+<label style="font-size:16px; margin-left: 145px">happy customers</label>
+<label style="font-size:16px; margin-left: 140px">tall</label>
+
+<!-- 
+<div class="row">
+<div class="col-2"> <h6 style="text-align : right; ">1000+ daily<br> flights</h6></div>
+<div class="col-2"> <h6 style="text-align : center; margin-left:80px;">50+ Domestic Destinations</h6></div>
+<div class="col-2"> <h6 style="text-align : center; margin-left:140px;">25 International Destinations</h6></div>
+<div class="col-2"> <h6 style="text-align : center;margin-left:150px;">300+ Million happy customers</h6></div>
+<div class="col-2"> <h6 style="text-align : center; margin-left:180px;">250 Fleet Tall</h6>
+</div>
+
+</div>
+<div class="row">
+<div class="col-2"> <h6 style="text-align : right;">1000+ daily<br> flights</h6></div>
+<div class="col-2"> <h6 style="text-align : right; margin-left:70px;">50 Domestic<br> Destinations</h6></div>
+<div class="col-2"> <h6 style="text-align : right;">25 International<br> Destinations</h6></div>
+<div class="col-2"> <h6 style="text-align : right;">300+ Million happy<br> customers</h6></div>
+<div class="col-2"> <h6 style="text-align : right;">250 Fleet <br> Tall</h6></div>
+
+</div>
+<div class="advt">
+<br>
+<div class="row float-center">
+
+<div class="col-2"><img src="https://raw.githubusercontent.com/thehalfwedbride/Flight-WeBOP/master/icons/icon1.png" style="height:40px; width:40px;"></div>
+<div class="col-2"><img src="https://raw.githubusercontent.com/thehalfwedbride/Flight-WeBOP/master/icons/icon2.png" style="height:40px; width:40px;"></div>
+<div class="col-2"><img src="https://raw.githubusercontent.com/thehalfwedbride/Flight-WeBOP/master/icons/icon3.png" style="height:40px; width:40px;"></div>
+<div class="col-2"><img src="https://raw.githubusercontent.com/thehalfwedbride/Flight-WeBOP/master/icons/icon4.png" style="height:40px; width:40px;"></div>
+<div class="col-2"><img src="https://raw.githubusercontent.com/thehalfwedbride/Flight-WeBOP/master/icons/icon5.png" style="height:40px; width:40px;"></div>
+
+</div>
+<div class="row">
+</div>
+</div>
+ -->
+
 </body>
 </html>
