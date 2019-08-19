@@ -13,7 +13,6 @@
 <style>
 body {
 	margin: 0;
-	font-size: 28px;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -128,7 +127,7 @@ body {
 }
 
 .nav-link:hover{
-	color:#fff;
+	color:#d6d6d6;
 }
 
 .carousel{
@@ -146,6 +145,63 @@ body {
 
 .btn{
 	background-color:#6b1c99;
+}
+
+#logintab{
+	color: #333;
+}
+
+#signuptab{
+	color: #333;
+}
+
+#logintab:hover{
+	color: #50f;
+}
+
+#signuptab:hover{
+	color: #50f;
+}
+
+#footer {
+  position: relative;
+  bottom: 0;
+  margin-top:20px;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 140px;
+}
+
+
+/* Custom footer CSS
+-------------------------------------------------- */
+
+.container .ad {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .ad .text-muted {
+  margin: 20px 0;
+}
+.footertext {
+  color: #000;
+}
+
+.footlinks{
+	color:#777;
+	text-decoration:none;
+	font-size: 15px;
+}
+
+.footlinks:hover{
+	color: #999;
+	text-decoration:none;
+}
+
+.footheader{
+	font-size: 22px;
+	color:#666;
 }
 
 </style>
@@ -171,13 +227,13 @@ body {
 		<div id="navbar" class="sticky">
 			<a data-toggle="modal" data-target="#exampleModal">Login</a> <a href="javascript:void(0)">Contact</a>
 			<a href="javascript:void(0)">FAQ's</a> <a href="javascript:void(0)">Book</a>
-			<span style="font-size: 30px; cursor: pointer; color: #fff;"
-				onclick="openNav()">&#9992;</span>
+			<span style="font-size: 30px; cursor: pointer; color: #fff;" onclick="openNav()">&#9992;</span>
+			<img src="https://raw.githubusercontent.com/thehalfwedbride/Flight-WeBOP/master/PicsArt_08-18-10.22.33.png" height="40px" width="40px">
 		</div>
 
 		<div id="mySidenav" class="sidenav">
 			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-			<a href="#">Login</a> <a href="#">Signup</a>
+			<a href="#" data-toggle="modal" data-target="#exampleModal">Login</a>
 		</div>
 	</div>
 	
@@ -240,7 +296,7 @@ body {
 									</div>
 								</div>
 							</div>
-							<div class="row" style="padding-left:8px;">
+							<div class="row" style="padding-left:8px;margin-top:9px;">
 								<div class="col-3">
 									<div class="form-check-inline">
 										<label class="form-check-label"> <input type="radio"
@@ -340,9 +396,9 @@ body {
           <span aria-hidden="true">&times;</span>
         </button>
       	<ul class="nav nav-tabs" style="background-color:#fff">
-			<li class="nav-item"><a class="nav-link active"
+			<li class="nav-item"><a class="nav-link active" id="logintab"
 				data-toggle="tab" href="#login">Login</a></li>
-			<li class="nav-item"><a class="nav-link" data-toggle="tab"
+			<li class="nav-item"><a class="nav-link" id="signuptab" data-toggle="tab"
 				href="#signup">Signup</a></li>
 		</ul>
         <div class="tab-content">
@@ -375,7 +431,7 @@ body {
     </div>
   </div>
 </div>
-
+<!-- 
 <div class="advt" style="text-align: center;">
 <br><br>
 <img src="https://raw.githubusercontent.com/thehalfwedbride/Flight-WeBOP/master/icons/icon1.png" style="height:40px; width:40px;">
@@ -384,51 +440,101 @@ body {
 <img src="https://raw.githubusercontent.com/thehalfwedbride/Flight-WeBOP/master/icons/icon4.png" style="height:40px; width:40px; margin-left:200px;">
 <img src="https://raw.githubusercontent.com/thehalfwedbride/Flight-WeBOP/master/icons/icon5.png" style="height:80px; width:80px; margin-left:160px;">
 </div>
-<label style="font-size:16px; margin-left: 100px">1000+ daily</label>
-<label style="font-size:16px; margin-left: 150px">50+ domestic</label>
-<label style="font-size:16px; margin-left: 135px">25 International</label>
-<label style="font-size:16px; margin-left: 145px">300+ million</label>
-<label style="font-size:16px; margin-left: 140px">250 fleet</label>
-<br>
+<label class="ad" style="font-size:16px; margin-left: 100px">1000+ daily</label>
+<label class="ad" style="font-size:16px; margin-left: 150px">50+ domestic</label>
+<label class="ad" style="font-size:16px; margin-left: 135px">25 International</label>
+<label class="ad" style="font-size:16px; margin-left: 145px">300+ million</label>
+<label class="ad" style="font-size:16px; margin-left: 140px">250 fleet</label>
+
 <label style="font-size:16px; margin-left: 122px">flights</label>
 <label style="font-size:16px; margin-left: 172px">destinations</label>
 <label style="font-size:16px; margin-left: 152px">destinations</label>
 <label style="font-size:16px; margin-left: 145px">happy customers</label>
 <label style="font-size:16px; margin-left: 140px">tall</label>
-
-<!-- 
-<div class="row">
-<div class="col-2"> <h6 style="text-align : right; ">1000+ daily<br> flights</h6></div>
-<div class="col-2"> <h6 style="text-align : center; margin-left:80px;">50+ Domestic Destinations</h6></div>
-<div class="col-2"> <h6 style="text-align : center; margin-left:140px;">25 International Destinations</h6></div>
-<div class="col-2"> <h6 style="text-align : center;margin-left:150px;">300+ Million happy customers</h6></div>
-<div class="col-2"> <h6 style="text-align : center; margin-left:180px;">250 Fleet Tall</h6>
-</div>
-
-</div>
-<div class="row">
-<div class="col-2"> <h6 style="text-align : right;">1000+ daily<br> flights</h6></div>
-<div class="col-2"> <h6 style="text-align : right; margin-left:70px;">50 Domestic<br> Destinations</h6></div>
-<div class="col-2"> <h6 style="text-align : right;">25 International<br> Destinations</h6></div>
-<div class="col-2"> <h6 style="text-align : right;">300+ Million happy<br> customers</h6></div>
-<div class="col-2"> <h6 style="text-align : right;">250 Fleet <br> Tall</h6></div>
-
-</div>
-<div class="advt">
-<br>
-<div class="row float-center">
-
-<div class="col-2"><img src="https://raw.githubusercontent.com/thehalfwedbride/Flight-WeBOP/master/icons/icon1.png" style="height:40px; width:40px;"></div>
-<div class="col-2"><img src="https://raw.githubusercontent.com/thehalfwedbride/Flight-WeBOP/master/icons/icon2.png" style="height:40px; width:40px;"></div>
-<div class="col-2"><img src="https://raw.githubusercontent.com/thehalfwedbride/Flight-WeBOP/master/icons/icon3.png" style="height:40px; width:40px;"></div>
-<div class="col-2"><img src="https://raw.githubusercontent.com/thehalfwedbride/Flight-WeBOP/master/icons/icon4.png" style="height:40px; width:40px;"></div>
-<div class="col-2"><img src="https://raw.githubusercontent.com/thehalfwedbride/Flight-WeBOP/master/icons/icon5.png" style="height:40px; width:40px;"></div>
-
-</div>
-<div class="row">
-</div>
-</div>
  -->
+<div id="footer">
+<br>
+<div class="container ad">
+        <div class="row">
+        	<div class="col-1"></div>
+              <div class="col-2">
+                <center>
+                  <img src="https://raw.githubusercontent.com/thehalfwedbride/Flight-WeBOP/master/icons/icon1.png" style="height:40px; width:40px;">
+                  <br>
+                  <p class="footertext">1000+<br>Daily Flights</p>
+                </center>
+              </div>
+              <div class="col-2">
+                <center>
+                  <img src="https://raw.githubusercontent.com/thehalfwedbride/Flight-WeBOP/master/icons/icon2.png" style="height:40px; width:40px;">
+                  <br>
+                  <p class="footertext">50+<br>Domestic Destinations</p>
+                </center>
+              </div>
+              <div class="col-2">
+                <center>
+                  <img src="https://raw.githubusercontent.com/thehalfwedbride/Flight-WeBOP/master/icons/icon3.png" style="height:40px; width:40px;">
+                  <br>
+                  <p class="footertext">25<br>International Destinations</p>
+                </center>
+              </div>
+              <div class="col-2">
+                <center>
+                  <img src="https://raw.githubusercontent.com/thehalfwedbride/Flight-WeBOP/master/icons/icon4.png" style="height:40px; width:40px;">
+                  <br>
+                  <p class="footertext">300+<br>Million Happy Customers</p>
+                </center>
+              </div>
+              <div class="col-2">
+                <center>
+                  <img src="https://cdn4.iconfinder.com/data/icons/airport-red/512/start_take_off_flight_fly_launch_departure_takeoff-512.png" style="height:40px; width:40px;">
+                  <br>
+                  <p class="footertext">250<br>Fleet Tall</p>
+                </center>
+              </div>
+              <div class="col-1"></div>
+            </div>
+    </div>
+</div>
+
+<!-- FOOTER -->
+<hr>
+<footer class="page footer" style= "text-align:left; margin-left:150px; margin-right:70px; margin-top:80px;">
+	<table border="0" width="100%">
+	<tr>
+		<th class="footheader"> Get to Know Us </th>
+		<th class="footheader"> Quick Links </th>
+		<th class="footheader"> Social </th>
+	</tr>
+	<tr >
+		<td> <a href="#" class="footlinks">About Us</a> </td>
+		<td> <a href="#" class="footlinks">Contact Us</a> </td>
+		<td> <a href="#"><img src="https://raw.githubusercontent.com/thehalfwedbride/Flight-WeBOP/master/icons/facebook.png" height="35px" width="35px"></a> </td>
+	</tr>
+	<tr>
+		<td> <a href="#" class="footlinks">Destinations</a> </td>
+		<td> <a href="#" class="footlinks">Feedback</a> </td>
+		<td> <a href="#"><img src="https://raw.githubusercontent.com/thehalfwedbride/Flight-WeBOP/master/icons/instagram.png" height="35px" width="35px"></a> </td>
+	</tr>
+	<tr>
+		<td> <a href="#" class="footlinks">Careers</a> </td>
+		<td> <a href="#" class="footlinks">Advertise With Us</a> </td>
+		<td> <a href="#"><img src="https://raw.githubusercontent.com/thehalfwedbride/Flight-WeBOP/master/icons/twitter.png" height="35px" width="35px"></a> </td>
+	</tr>
+	<tr>
+		<td> <a href="#" class="footlinks">Our Awards</a> </td>
+		<td> <a href="#" class="footlinks">Terms And Conditions</a> </td>
+		<th class="footheader"> Download</th>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td> <a href="#"><img src="https://raw.githubusercontent.com/thehalfwedbride/Flight-WeBOP/master/icons/playstore.png" height="90px" width="150px"></a> </td>
+	</tr>
+	</table>
+<hr>
+ <p style="font-size:12px; color: #333;">&copy; Copyright 2019 WeBOP. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
