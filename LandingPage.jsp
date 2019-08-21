@@ -5,6 +5,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>WeBOP</title>
+<link rel="shortcut icon" type="image/png" href="https://raw.githubusercontent.com/thehalfwedbride/Flight-WeBOP/master/favicon.png"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 <%@include file="/bootstrap/css/bootstrap.min.css"%>
