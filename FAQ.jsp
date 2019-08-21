@@ -8,6 +8,9 @@
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 <style>
+	body{
+		width:90%;
+	}
 	.page{
 		position: relative;
 		margin-top: 69%;
@@ -32,7 +35,7 @@
 		text-align: left;
 	}
 	#tab{
-		margin-top: 72%;
+		margin-top: 75%;
 		margin-left: 10%;
 	}
 	.footlinks{
@@ -332,9 +335,9 @@
 				<br>For safety reasons, children above the age of seven 7 days and under the age of two 2 years, as on the date of travel, can travel as Infants. Age proof needs to be provided at the time of check-in.
 				<br>Valid ID proof for Infants:
 				<ul>
-				<li>ŸBirth Certificate</li>
-				<li>ŸMother's hospital discharge summary</li>
-				<li>ŸVaccination certificate</li>
+				<li>Birth Certificate</li>
+				<li>Mother's hospital discharge summary</li>
+				<li>Vaccination certificate</li>
 				<li>Passport</li>
 			</ul></li>
           	<li><b>What if I don't have a valid proof for the infant's age?</b><hr>
@@ -368,10 +371,10 @@
 				<br>Flights under 60 minutes flying time: Everything on the menu except hot food and hot beverages will be on sale basis availablity.
 				<br>Payment
 				<br>Onboard purchases:
-				Ÿ<br>We accept credit card and cash payments for on-board purchases. The following conditions apply:
-				Ÿ<br>We will only be accepting VISA and MASTER cards
-				Ÿ<br>The maximum limit for Domestic Sectors is INR 5,000
-				Ÿ<br>The maximum limit for International Sectors is  USD 120
+				<br>We accept credit card and cash payments for on-board purchases. The following conditions apply:
+				<br>We will only be accepting VISA and MASTER cards
+				<br>The maximum limit for Domestic Sectors is INR 5,000
+				<br>The maximum limit for International Sectors is  USD 120
 				<br>As per Foreign Exchange Management Act by Reserve Bank of India regulations, we do not accept INR on international flights. We only accept the below mention currencies on our international flights: USD, Euro, GBP, AED, THB and OMR
           	</li>
           	<li><b>Is alcohol offered on IndiGo flights?</b><hr>
@@ -380,9 +383,9 @@
           	<li><b>Is smoking allowed on- board IndiGo flights?</b><hr>
 				<br>Smoking is strictly prohibited on any IndiGo aircraft</li>
           	<li><b>Can I carry water and food on-board?</b><hr>
-				<br>ŸIndiGo provides water cups free of charge on all its flights. Water bottles will be available in flight on sale.
-				Ÿ<br>IndiGo allows passengers to bring food items on-board. Allowed food items include cold snacks, non-alcoholic drinks, snack bars and biscuits.
-				Ÿ<br>Messy, oily or strong smelling food items are not allowed on-board</li>
+				<br>IndiGo provides water cups free of charge on all its flights. Water bottles will be available in flight on sale.
+				<br>IndiGo allows passengers to bring food items on-board. Allowed food items include cold snacks, non-alcoholic drinks, snack bars and biscuits.
+				<br>Messy, oily or strong smelling food items are not allowed on-board</li>
           	<li><b>Does IndiGo provide ear plugs and cotton?</b><hr>
 				<br>IndiGo currently does not provide ear plugs and cotton on-board. Therefore, we recommend that passengers carry their own chewing gums, cotton and/or ear plugs for their comfort. It is also recommended that passengers carry blankets/ shawl on board.</li>
           	<li><b>Does IndiGo sell merchandise on ATRs?</b><hr>
@@ -420,22 +423,22 @@
 				<br>Assist the customer with personal care and toileting needs before, after and during the flight.</li>
           	<li><b>What rules apply if I want to carry a Portable Oxygen Concentrator (POC)?</b><hr>
 				<br>Carriage of a POC
-				<br>ŸA request for carriage or use of the POC on board needs to be made to IndiGo a minimum forty eight (48) hours in advance from the scheduled departure time.
-				Ÿ<br>Only Portable Oxygen Concentrator (POC), approved by Federal Aviation Administration (FAA) is permitted on board IndiGo flights either as checked-in or hand baggage, free of cost, subject to certain conditions.
-				Ÿ<br>The weight of a POC to be carried on board should not be more than 7 Kg
+				<br>A request for carriage or use of the POC on board needs to be made to IndiGo a minimum forty eight (48) hours in advance from the scheduled departure time.
+				<br>Only Portable Oxygen Concentrator (POC), approved by Federal Aviation Administration (FAA) is permitted on board IndiGo flights either as checked-in or hand baggage, free of cost, subject to certain conditions.
+				<br>The weight of a POC to be carried on board should not be more than 7 Kg
 				<br>Such customers must be capable of seeing, hearing and understanding the POC device warnings and should be in a position to take appropriate action, without assistance, in response to those warnings
 				<br>During taxi, take-off and landing the POC, if being used must be stowed under the seat in front.
 				<br><br>Seat Allocation
-				Ÿ<br>Customers carrying/using the POC on board shall be assigned only a window seat, except on rows 1,12 and 13. Such customers shall not be seated on middle or aisle seats. IndiGo reserves rights to change seats of such customers, if required.
+				<br>Customers carrying/using the POC on board shall be assigned only a window seat, except on rows 1,12 and 13. Such customers shall not be seated on middle or aisle seats. IndiGo reserves rights to change seats of such customers, if required.
 				<br><br>Check-In of POC
-				<br>ŸFor safety purposes, Customer must ensure that the POC prior to check in is empty and free of pressure. Thus, if the POC was used before coming to the airport, then the Customer must to reset the POC to avoid any residual oxygen in the equipment
+				<br>For safety purposes, Customer must ensure that the POC prior to check in is empty and free of pressure. Thus, if the POC was used before coming to the airport, then the Customer must to reset the POC to avoid any residual oxygen in the equipment
 				<br>If POC operates on lithium battery, battery should be removed and carried by Customer as hand baggage. If POC operates on any other type of battery, battery should be removed and packed separately in such a way that battery terminals do not come in contact with any metal objects. Carriage of such batteries will further be subject to applicable regulatory requirements including but not limited to those mentioned under the Aircraft (Carriage of Dangerous Goods) Rules, 2003, International Civil Aviation Organization (ICAO) Technical Instructions for the Safe Transport of Dangerous Goods by Air, the International Air Transport Association (IATA) Dangerous Goods Regulations.
 				<br><br>Other conditions
-				Ÿ<br>In case of the unlikely event of decompression, passengers must wear the oxygen mask from the overhead panel as a primary source of oxygen and not their POC, as the oxygen mask would ensure a continuous flow of oxygen and would also minimize the chance/ effects of decompression sickness.
-				Ÿ<br>POC should not cause any interference with the electrical, navigation or communication equipment on board;
+				<br>In case of the unlikely event of decompression, passengers must wear the oxygen mask from the overhead panel as a primary source of oxygen and not their POC, as the oxygen mask would ensure a continuous flow of oxygen and would also minimize the chance/ effects of decompression sickness.
+				<br>POC should not cause any interference with the electrical, navigation or communication equipment on board;
 				<br>Passenger carrying the POC on board must comply with all security requirements and instructions communicated by the Crew, from time to time;
-				<br>ŸPassenger alone will be solely responsible for packing, assembling, dismantling or facilitating administration of POC both on ground and on board. IndiGo will under no circumstances be liable or responsible for the same.
-				Ÿ<br>Not withstanding anything contained herein, IndiGo, in its sole discretion, reserves the right to refuse carriage of the POC, if it is likely to endanger the safety of the aircraft or of any person</li>
+				<br>Passenger alone will be solely responsible for packing, assembling, dismantling or facilitating administration of POC both on ground and on board. IndiGo will under no circumstances be liable or responsible for the same.
+				<br>Not withstanding anything contained herein, IndiGo, in its sole discretion, reserves the right to refuse carriage of the POC, if it is likely to endanger the safety of the aircraft or of any person</li>
           	<li><b>Can I carry crutches, braces and or other prosthetic devices on-board?</b><hr>
 				<br>Customers are allowed to use their own crutches, braces and / or other prosthetic devices up to the aircraft, and may board with such items as hand baggage, provided the customers are dependent on them.</li>
           	<li><b>Can seats be assigned to passengers who are differently abled?</b><hr>
