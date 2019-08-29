@@ -1,26 +1,3 @@
-$(document).ready(function(){
-	// Activate tooltip
-	$('[data-toggle="tooltip"]').tooltip();
-	
-	// Select/Deselect checkboxes
-	var checkbox = $('table tbody input[type="checkbox"]');
-	$("#selectAll").click(function(){
-		if(this.checked){
-			checkbox.each(function(){
-				this.checked = true;                        
-			});
-		} else{
-			checkbox.each(function(){
-				this.checked = false;                        
-			});
-		} 
-	});
-	checkbox.click(function(){
-		if(!this.checked){
-			$("#selectAll").prop("checked", false);
-		}
-	});
-});
     var y
 
 
@@ -40,7 +17,7 @@ $(document).ready(function(){
             return false
         }
         else{
-            $('#addEmployeeModal').modal('hide');
+            $('#addModal').modal('hide');
         
         $("table tbody").append(
             '<tr onclick="getRow(this)">'+
@@ -48,8 +25,8 @@ $(document).ready(function(){
                             '<td>'+b+'</td>'+
                             '<td>'+c+'</td>'+
                             '<td>'+
-                                '<a href="#editEmployeeModal" class="edit" onclick="defaultFlight(this.parentNode.parentNode)"  data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>'+
-                                '<a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>'+
+                                '<a href="#editModal" class="edit" onclick="defaultFlight(this.parentNode.parentNode)"  data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>'+
+                                '<a href="#deleteModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>'+
                             '</td>'+
                         '</tr>'
         )
@@ -81,7 +58,7 @@ $(document).ready(function(){
             return false
         }
         else{
-            $('#editEmployeeModal').modal('hide');
+            $('#editModal').modal('hide');
         var table = document.getElementById("flightTable")
 
         table.rows[y].cells[0].innerHTML = a;
@@ -125,8 +102,8 @@ $(document).ready(function(){
                             '<td>'+e+'</td>'+
                             '<td>'+g+'</td>'+
                             '<td>'+
-                                '<a href="#editEmployeeModal" class="edit" onclick="defaultRoute(this.parentNode.parentNode)" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>'+
-                                '<a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>'+
+                                '<a href="#editModal" class="edit" onclick="defaultRoute(this.parentNode.parentNode)" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>'+
+                                '<a href="#deleteModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>'+
                             '</td>'+
                         '</tr>'
         )
